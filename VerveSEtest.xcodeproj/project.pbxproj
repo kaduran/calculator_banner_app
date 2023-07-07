@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCAACC872A587264008D6A55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAACC862A587264008D6A55 /* ViewController.swift */; };
 		FCD4B48B2A5722EA009AC48C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD4B48A2A5722EA009AC48C /* SceneDelegate.swift */; };
-		FCD4B49D2A572379009AC48C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD4B49C2A572379009AC48C /* ViewController.swift */; };
 		FCD4B49F2A57239E009AC48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD4B49E2A57239D009AC48C /* Assets.xcassets */; };
 		FCD4B4A12A5723B6009AC48C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD4B4A02A5723B6009AC48C /* AppDelegate.swift */; };
 		FCD4B4A52A572525009AC48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD4B4A42A572525009AC48C /* Main.storyboard */; };
@@ -35,10 +35,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FCAACC862A587264008D6A55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCD4B4852A5722EA009AC48C /* VerveSEtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerveSEtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD4B48A2A5722EA009AC48C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FCD4B4962A5722EB009AC48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCD4B49C2A572379009AC48C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../Downloads/Calculator-main/ViewController.swift"; sourceTree = "<group>"; };
 		FCD4B49E2A57239D009AC48C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/Calculator-main/Assets.xcassets"; sourceTree = "<group>"; };
 		FCD4B4A02A5723B6009AC48C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Downloads/Calculator-main/AppDelegate.swift"; sourceTree = "<group>"; };
 		FCD4B4A42A572525009AC48C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				FCD4B4A02A5723B6009AC48C /* AppDelegate.swift */,
-				FCD4B49C2A572379009AC48C /* ViewController.swift */,
+				FCAACC862A587264008D6A55 /* ViewController.swift */,
 				FCD4B48A2A5722EA009AC48C /* SceneDelegate.swift */,
 				FCD4B4A42A572525009AC48C /* Main.storyboard */,
 				FCD4B4A62A572528009AC48C /* LaunchScreen.storyboard */,
@@ -175,8 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCD4B4A12A5723B6009AC48C /* AppDelegate.swift in Sources */,
-				FCD4B49D2A572379009AC48C /* ViewController.swift in Sources */,
 				FCD4B48B2A5722EA009AC48C /* SceneDelegate.swift in Sources */,
+				FCAACC872A587264008D6A55 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
